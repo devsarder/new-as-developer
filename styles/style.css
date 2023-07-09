@@ -1,0 +1,77 @@
+/* common shared styles */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header related styles */
+
+header {
+  display: flex;
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 808px;
+  text-align: right;
+  margin: auto;
+}
+.head-column {
+  max-width: 1200px;
+  margin: auto;
+}
+.btn-primary {
+  width: 160px;
+  height: 64px;
+  border: 0;
+  border-radius: 5px;
+  background: #f15b22;
+  color: white;
+}
+/* section year related styles */
+
+.year {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 130px;
+}
+
+.year-column {
+  max-width: 416px;
+  text-align: left;
+}
+.year ul li {
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 0px;
+  list-style-image: url("../images/checkmark.svg");
+}
+.year ul {
+  padding: 0px;
+}
+.year-title {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* plans section shared styles */
+
+.item {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.items-container {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin: auto;
+}
+.item-img {
+  width: 90px;
+}
